@@ -6,9 +6,9 @@
   "repository": "https://github.com/mkayander/easyenv",
   "keywords": [],
   "author": {
-    "name" : "Max Kayander",
-    "email" : "maxim.kayander1@gmail.com",
-    "url" : "https://github.com/mkayander"
+    "name": "Max Kayander",
+    "email": "maxim.kayander1@gmail.com",
+    "url": "https://github.com/mkayander"
   },
   "license": "MIT",
   "scripts": {
