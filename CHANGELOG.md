@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/mkayander/easyenv/compare/v1.0.0...v1.0.1) (2022-11-03)
+
+
+### Bug Fixes
+
+* **CI:** Added package name scope ([c12d4e8](https://github.com/mkayander/easyenv/commit/c12d4e826e4fb47d34dc08bad48b56526aac3ea1))
+
 # 1.0.0 (2022-11-03)
 
 
