@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/mkayander/easyenv/compare/v1.0.1...v1.0.2) (2022-11-03)
+
+
+### Bug Fixes
+
+* **CI:** Set publish config access to public ([49268dd](https://github.com/mkayander/easyenv/commit/49268dd6d8ef6d4a3a76b4ecd970781f5f402508))
+
 ## [1.0.1](https://github.com/mkayander/easyenv/compare/v1.0.0...v1.0.1) (2022-11-03)
 
 
