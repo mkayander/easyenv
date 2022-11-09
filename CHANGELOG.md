@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/mkayander/easyenv/compare/v1.1.0...v1.2.0) (2022-11-09)
+
+
+### Features
+
+* [#3](https://github.com/mkayander/easyenv/issues/3) Implemented main programmatic API ([ac040c6](https://github.com/mkayander/easyenv/commit/ac040c6dfe28d9b5167fc7ff541338a60b772b48))
+
 # [1.1.0](https://github.com/mkayander/easyenv/compare/v1.0.2...v1.1.0) (2022-11-06)
 
 
