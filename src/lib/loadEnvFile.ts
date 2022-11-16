@@ -1,4 +1,4 @@
-import { parseEnvVars } from "@src/lib/parseEnvVars";
+import { parseEnvVars } from "lib/parseEnvVars";
 import { readFile } from "fs/promises";
 
 export const loadEnvFile = async (

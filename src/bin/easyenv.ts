@@ -1,5 +1,5 @@
 import { Command } from "commander";
-import { initEnv } from "@src/cli/init-env";
+import { initEnv } from "cli/init-env";
 
 const program = new Command();
 
