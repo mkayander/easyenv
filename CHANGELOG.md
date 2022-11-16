@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/mkayander/easyenv/compare/v1.3.0...v1.3.1) (2022-11-16)
+
+
+### Bug Fixes
+
+* Fixed bin path ([71634f7](https://github.com/mkayander/easyenv/commit/71634f75ab7c04c5064116f4c44841f0a0c05ae1))
+
 # [1.3.0](https://github.com/mkayander/easyenv/compare/v1.2.0...v1.3.0) (2022-11-16)
 
 
