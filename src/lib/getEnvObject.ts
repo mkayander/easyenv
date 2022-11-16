@@ -1,4 +1,4 @@
-import { getEnvSetup } from "@src/lib/getEnvSetup";
+import { getEnvSetup } from "lib/getEnvSetup";
 
 const getEnvObject = async () => {
   const envSetup = await getEnvSetup();

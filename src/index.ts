@@ -1,4 +1,4 @@
-import { getEnvObject } from "@src/lib/getEnvObject";
+import { getEnvObject } from "lib/getEnvObject";
 
 const env = getEnvObject();
 

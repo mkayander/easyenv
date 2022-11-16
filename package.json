@@ -2,8 +2,15 @@
   "name": "@top-tools/easyenv",
   "version": "1.2.0",
   "description": "",
-  "main": "index.js",
-  "type": "module",
+  "bin": {
+    "easyenv": "./dist/bin/easyenv.js"
+  },
+  "main": "dist/lib/index.js",
+  "module": "dist/esm/index.js",
+  "typings": "dist/lib/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "repository": "https://github.com/mkayander/easyenv",
   "keywords": [],
   "author": {
@@ -16,14 +23,19 @@
     "access": "public"
   },
   "scripts": {
+    "build": "tsx build.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/node": "^18.11.9",
+    "@types/rimraf": "^3.0.2",
+    "esbuild": "^0.15.14",
     "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
     "semantic-release": "^19.0.5",
     "tsx": "^3.11.0",
     "typescript": "^4.8.4"
