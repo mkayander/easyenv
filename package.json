@@ -3,7 +3,7 @@
   "version": "1.3.0",
   "description": "-",
   "bin": {
-    "easyenv": "./dist/bin/easyenv.js"
+    "easyenv": "./dist/lib/bin/easyenv.js"
   },
   "main": "dist/lib/index.js",
   "module": "dist/esm/index.js",
