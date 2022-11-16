@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/mkayander/easyenv/compare/v1.2.0...v1.3.0) (2022-11-16)
+
+
+### Features
+
+* **build:** Added bundler to output a working built module ([2d1c33d](https://github.com/mkayander/easyenv/commit/2d1c33de84365f6896ad2b8932827801708388e0))
+
 # [1.2.0](https://github.com/mkayander/easyenv/compare/v1.1.0...v1.2.0) (2022-11-09)
 
 
