@@ -9,12 +9,6 @@ module.exports = {
                 changelogFile: 'CHANGELOG.md',
             },
         ],
-        [
-            '@semantic-release/exec',
-            {
-                prepareCmd: 'pnpm build',
-            }
-        ],
         '@semantic-release/npm',
         [
             '@semantic-release/git',
