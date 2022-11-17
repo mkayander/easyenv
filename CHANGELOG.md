@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/mkayander/easyenv/compare/v1.3.1...v1.4.0) (2022-11-17)
+
+
+### Features
+
+* Renamed package to "strictenv" ([242a788](https://github.com/mkayander/easyenv/commit/242a78809baaa2582ec35209fc17aa59da4f8653))
+
 ## [1.3.1](https://github.com/mkayander/easyenv/compare/v1.3.0...v1.3.1) (2022-11-16)
 
 
