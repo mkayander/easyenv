@@ -1,7 +1,7 @@
 {
-  "name": "strictenv",
+  "name": "@top-tools/easyenv",
   "version": "1.4.0",
-  "description": "Make your env variables strict",
+  "description": "",
   "bin": {
     "easyenv": "./dist/lib/bin/easyenv.js"
   },
