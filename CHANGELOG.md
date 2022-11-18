@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/mkayander/easyenv/compare/v1.4.0...v1.4.1) (2022-11-18)
+
+
+### Bug Fixes
+
+* Fixed logic, removed top-level await requirement ([be754be](https://github.com/mkayander/easyenv/commit/be754be632b6f1cb307a9fa90b0c6acc42280473))
+
 # [1.4.0](https://github.com/mkayander/easyenv/compare/v1.3.1...v1.4.0) (2022-11-17)
 
 
