@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/mkayander/easyenv/compare/v1.4.1...v1.4.2) (2022-11-18)
+
+
+### Bug Fixes
+
+* Move bundled dependencies to devDependencies ([5fde2ac](https://github.com/mkayander/easyenv/commit/5fde2ac1c9e318cc7043b4af37e4c52272ebe6b1))
+
 ## [1.4.1](https://github.com/mkayander/easyenv/compare/v1.4.0...v1.4.1) (2022-11-18)
 
 
