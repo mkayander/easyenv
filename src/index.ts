@@ -1,5 +1,3 @@
-import { getEnvObject } from "lib/getEnvObject";
+import { createEnvObject } from "lib/createEnvObject";
 
-const env = getEnvObject();
-
-export { env };
+export { createEnvObject };

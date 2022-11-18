@@ -12,11 +12,9 @@ export type EnvSetup = {
   raw: Record<string, string>;
 };
 
-export const getEnvSetup = async () => {
-  const [envSource, envFile] = await Promise.all([
-    loadEnvFile(".env.example"),
-    loadEnvFile(".env"),
-  ]);
+export const getEnvSetup = () => {
+  const envSource = loadEnvFile(".env.example");
+  const envFile = loadEnvFile(".env");
 
   const setup: EnvSetup = {
     metaData: {},
@@ -33,7 +31,9 @@ export const getEnvSetup = async () => {
     }
 
     const isValid = Boolean(value);
-    isValid && console.warn(`Required environment variable ${key} is not set`);
+    isDescribed &&
+      !isValid &&
+      console.warn(`Required environment variable ${key} is not set`);
 
     setup.metaData[key] = {
       isValid,

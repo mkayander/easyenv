@@ -1,11 +1,9 @@
 import { parseEnvVars } from "lib/parseEnvVars";
-import { readFile } from "fs/promises";
+import { readFileSync } from "fs";
 
-export const loadEnvFile = async (
-  fileName: string
-): Promise<Record<string, string>> =>
+export const loadEnvFile = (fileName: string): Record<string, string> =>
   parseEnvVars(
-    await readFile(fileName, {
+    readFileSync(fileName, {
       encoding: "utf-8",
       flag: "r",
     })

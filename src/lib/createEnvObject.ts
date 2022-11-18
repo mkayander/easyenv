@@ -1,7 +1,7 @@
 import { getEnvSetup } from "lib/getEnvSetup";
 
-const getEnvObject = async () => {
-  const envSetup = await getEnvSetup();
+const createEnvObject = (): NodeJS.Process["env"] => {
+  const envSetup = getEnvSetup();
 
   return new Proxy(envSetup.raw, {
     get: (target, prop: string) => {
@@ -23,4 +23,4 @@ const getEnvObject = async () => {
   });
 };
 
-export { getEnvObject };
+export { createEnvObject };
