@@ -1,3 +1,10 @@
+## [1.4.3](https://github.com/mkayander/easyenv/compare/v1.4.2...v1.4.3) (2022-11-20)
+
+
+### Bug Fixes
+
+* Proceed with normal env object if something failed ([4f9b300](https://github.com/mkayander/easyenv/commit/4f9b30057ec38077a1eddb4862313d1aa43befa6))
+
 ## [1.4.2](https://github.com/mkayander/easyenv/compare/v1.4.1...v1.4.2) (2022-11-18)
 
 
