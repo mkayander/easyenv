@@ -1,7 +1,7 @@
 {
   "name": "@easyenv/cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "EasyEnv CLI",
   "author": {
     "name": "Max Kayander",
     "email": "maxim.kayander1@gmail.com",
