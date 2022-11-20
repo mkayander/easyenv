@@ -1,3 +1,10 @@
+# [@easyenv/core-v1.0.1](https://github.com/mkayander/easyenv/compare/@easyenv/core-v1.0.0...@easyenv/core-v1.0.1) (2022-11-20)
+
+
+### Bug Fixes
+
+* Updated packages ([10fd45d](https://github.com/mkayander/easyenv/commit/10fd45d9450ca2e835508c0b92a2edd54ebaeda9))
+
 # @easyenv/core-v1.0.0 (2022-11-20)
 
 
