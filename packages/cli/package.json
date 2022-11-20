@@ -21,6 +21,9 @@
   },
   "keywords": [],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "commander": "^9.4.1",
     "ora": "^6.1.2",

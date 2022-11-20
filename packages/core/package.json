@@ -24,6 +24,9 @@
   },
   "keywords": [],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "typescript": "^4.8.4"
   }

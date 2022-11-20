@@ -17,6 +17,9 @@
   },
   "keywords": [],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "esbuild": "^0.15.14",
     "tsx": "^3.11.0",
