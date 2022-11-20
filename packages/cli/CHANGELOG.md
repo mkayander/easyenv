@@ -1,3 +1,10 @@
+# [@easyenv/cli-v1.0.3](https://github.com/mkayander/easyenv/compare/@easyenv/cli-v1.0.2...@easyenv/cli-v1.0.3) (2022-11-20)
+
+
+### Bug Fixes
+
+* Updated packages ([10fd45d](https://github.com/mkayander/easyenv/commit/10fd45d9450ca2e835508c0b92a2edd54ebaeda9))
+
 # [@easyenv/cli-v1.0.2](https://github.com/mkayander/easyenv/compare/@easyenv/cli-v1.0.1...@easyenv/cli-v1.0.2) (2022-11-20)
 
 
