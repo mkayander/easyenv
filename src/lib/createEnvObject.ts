@@ -1,7 +1,16 @@
-import { getEnvSetup } from "lib/getEnvSetup";
+import { EnvSetup, getEnvSetup } from "lib/getEnvSetup";
 
 const createEnvObject = (): NodeJS.Process["env"] => {
-  const envSetup = getEnvSetup();
+  let envSetup: EnvSetup;
+  try {
+    envSetup = getEnvSetup();
+  } catch (error) {
+    console.error(
+      "Failed to init env setup! Returning normal process.env",
+      error
+    );
+    return process.env;
+  }
 
   return new Proxy(envSetup.raw, {
     get: (target, prop: string) => {
