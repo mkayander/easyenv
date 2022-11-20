@@ -1,8 +1,0 @@
-
-> @easyenv/cli@0.0.0 build C:\Users\Max\WebstormProjects\easyenv\packages\cli
-> esbuild src/bin/easyenv.ts --bundle --platform=node --target=node14 --outfile=dist/bin/easyenv.js --format=cjs
-
-
-  dist\bin\easyenv.js  261.9kb
-
-Done in 42ms

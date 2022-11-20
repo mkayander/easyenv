@@ -3,4 +3,5 @@ node_modules
 .env.example
 .env
 
+packages/**/.turbo
 packages/**/dist
