@@ -1,3 +1,10 @@
+# [@easyenv/cli-v1.0.2](https://github.com/mkayander/easyenv/compare/@easyenv/cli-v1.0.1...@easyenv/cli-v1.0.2) (2022-11-20)
+
+
+### Bug Fixes
+
+* Specify public access setting ([f1bc384](https://github.com/mkayander/easyenv/commit/f1bc3848e565ad290d5b1e6d659d0b356e14a0ca))
+
 # [@easyenv/cli-v1.0.1](https://github.com/mkayander/easyenv/compare/@easyenv/cli-v1.0.0...@easyenv/cli-v1.0.1) (2022-11-20)
 
 
