@@ -1,0 +1,25 @@
+{
+  "name": "@easyenv/core",
+  "version": "0.0.0",
+  "description": "",
+  "author": {
+    "name": "Max Kayander",
+    "email": "maxim.kayander1@gmail.com",
+    "url": "https://github.com/mkayander"
+  },
+  "repository": "https://github.com/mkayander/easyenv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "tsc": "tsc -p tsconfig.json",
+    "build": "tsc && npm run build:esm && npm run build:cjs",
+    "build:esm": "esbuild src/index.ts --bundle --platform=node --target=node14 --outdir=dist/esm --format=esm",
+    "build:cjs": "esbuild src/index.ts --bundle --platform=node --target=node14 --outdir=dist/lib --format=cjs"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}

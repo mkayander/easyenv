@@ -1,10 +1,11 @@
 {
-  "name": "@top-tools/easyenv",
-  "version": "1.4.3",
+  "name": "root",
+  "version": "0.0.0",
+  "private": true,
   "description": "",
-  "bin": {
-    "easyenv": "./dist/lib/bin/easyenv.js"
-  },
+  "workspaces": [
+    "packages/*"
+  ],
   "main": "dist/lib/index.js",
   "module": "dist/esm/index.js",
   "typings": "dist/lib/index.d.ts",
@@ -23,9 +24,9 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsx build.ts",
+    "build": "turbo build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "semantic-release": "semantic-release"
+    "semantic-release": "pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
@@ -38,7 +39,9 @@
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
     "semantic-release": "^19.0.5",
+    "semantic-release-monorepo": "^7.0.5",
     "tsx": "^3.11.0",
+    "turbo": "^1.6.3",
     "typescript": "^4.8.4"
   }
 }

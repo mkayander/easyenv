@@ -1,5 +1,5 @@
 {
-  "exclude": ["node_modules", "build.ts"],
+  "exclude": ["node_modules", "packages/tools/src/build.ts"],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
 

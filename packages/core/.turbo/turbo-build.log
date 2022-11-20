@@ -1,0 +1,20 @@
+
+> @easyenv/core@0.0.0 build C:\Users\Max\WebstormProjects\easyenv\packages\core
+> tsc && npm run build:esm && npm run build:cjs
+
+
+> @easyenv/core@0.0.0 build:esm
+> esbuild src/index.ts --bundle --platform=node --target=node14 --outdir=dist/esm --format=esm
+
+
+  dist\esm\index.js  2.0kb
+
+Done in 5ms
+
+> @easyenv/core@0.0.0 build:cjs
+> esbuild src/index.ts --bundle --platform=node --target=node14 --outdir=dist/lib --format=cjs
+
+
+  dist\lib\index.js  3.0kb
+
+Done in 5ms

@@ -1,0 +1,31 @@
+
+> @easyenv/tools@0.0.0 build C:\Users\Max\WebstormProjects\easyenv\packages\tools
+> esbuild src/index.ts --bundle --platform=node --target=node12 --outfile=index.js
+
+X [ERROR] Could not resolve "src/index.ts"
+
+1 error
+node:child_process:910
+    throw err;
+    ^
+
+Error: Command failed: C:\Users\Max\WebstormProjects\easyenv\node_modules\.pnpm\esbuild-windows-64@0.15.14\node_modules\esbuild-windows-64\esbuild.exe src/index.ts --bundle --platform=node --target=node12 --outfile=index.js
+    at checkExecSyncError (node:child_process:871:11)
+    at Object.execFileSync (node:child_process:907:15)
+    at Object.<anonymous> (C:\Users\Max\WebstormProjects\easyenv\node_modules\.pnpm\esbuild@0.15.14\node_modules\esbuild\bin\esbuild:209:28)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 29984,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v18.12.1
+ ELIFECYCLE  Command failed with exit code 1.

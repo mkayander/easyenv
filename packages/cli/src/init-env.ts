@@ -1,5 +1,5 @@
 import { promises } from "fs";
-import spinner from "lib/spinner";
+import spinner from "./spinner";
 
 const { readFile, writeFile } = promises;
 

@@ -1,0 +1,4 @@
+
+> @easyenv/core@0.0.0 tsc C:\Users\Max\WebstormProjects\easyenv\packages\core
+> tsc -p tsconfig.json
+

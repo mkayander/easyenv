@@ -1,4 +1,4 @@
-import { parseEnvVars } from "lib/parseEnvVars";
+import { parseEnvVars } from "./parseEnvVars";
 import { readFileSync } from "fs";
 
 export const loadEnvFile = (fileName: string): Record<string, string> =>

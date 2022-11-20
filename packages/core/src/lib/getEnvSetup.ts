@@ -1,4 +1,4 @@
-import { loadEnvFile } from "lib/loadEnvFile";
+import { loadEnvFile } from "./loadEnvFile";
 
 export type EnvItem = {
   isValid: boolean;

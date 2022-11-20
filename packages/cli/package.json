@@ -1,0 +1,29 @@
+{
+  "name": "@easyenv/cli",
+  "version": "0.0.0",
+  "description": "",
+  "author": {
+    "name": "Max Kayander",
+    "email": "maxim.kayander1@gmail.com",
+    "url": "https://github.com/mkayander"
+  },
+  "repository": "https://github.com/mkayander/easyenv",
+  "bin": {
+    "easyenv": "bin/easyenv.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "build": "esbuild src/bin/easyenv.ts --bundle --platform=node --target=node14 --outfile=dist/bin/easyenv.js --format=cjs"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "commander": "^9.4.1",
+    "ora": "^6.1.2",
+    "typescript": "^4.8.4"
+  }
+}

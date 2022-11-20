@@ -1,4 +1,4 @@
-import { EnvSetup, getEnvSetup } from "lib/getEnvSetup";
+import { EnvSetup, getEnvSetup } from "./getEnvSetup";
 
 const createEnvObject = (): NodeJS.Process["env"] => {
   let envSetup: EnvSetup;
