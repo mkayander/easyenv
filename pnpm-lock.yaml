@@ -15,9 +15,9 @@ importers:
       rimraf: ^3.0.2
       semantic-release: ^19.0.5
       semantic-release-monorepo: ^7.0.5
-      tsx: ^3.11.0
+      tsx: ^3.12.1
       turbo: ^1.6.3
-      typescript: ^4.8.4
+      typescript: ^4.9.3
     devDependencies:
       '@semantic-release/changelog': 6.0.1_semantic-release@19.0.5
       '@semantic-release/git': 10.0.1_semantic-release@19.0.5
@@ -38,7 +38,7 @@ importers:
     specifiers:
       commander: ^9.4.1
       ora: ^6.1.2
-      typescript: ^4.8.4
+      typescript: ^4.9.3
     devDependencies:
       commander: 9.4.1
       ora: 6.1.2
@@ -46,15 +46,15 @@ importers:
 
   packages/core:
     specifiers:
-      typescript: ^4.8.4
+      typescript: ^4.9.3
     devDependencies:
       typescript: 4.9.3
 
   packages/tools:
     specifiers:
       esbuild: ^0.15.14
-      tsx: ^3.11.0
-      typescript: ^4.8.4
+      tsx: ^3.12.1
+      typescript: ^4.9.3
     devDependencies:
       esbuild: 0.15.14
       tsx: 3.12.1

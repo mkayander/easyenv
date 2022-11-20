@@ -27,6 +27,6 @@
   "devDependencies": {
     "commander": "^9.4.1",
     "ora": "^6.1.2",
-    "typescript": "^4.8.4"
+    "typescript": "^4.9.3"
   }
 }
